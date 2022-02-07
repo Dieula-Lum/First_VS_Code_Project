@@ -1,3 +1,32 @@
-html {
-    background-color:brown;
+body {
+    background-image: url(/images/background.jpg), linear-gradient(#f7f3f6, #4b1c1a);
+    background-color: lightseagreen;
 }
+h1 {
+   text-align: center; 
+}
+
+h2 {
+    text-align: center;
+}
+
+h6 {
+    text-align: left;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #contact {
+      text-align: center;
+  }
